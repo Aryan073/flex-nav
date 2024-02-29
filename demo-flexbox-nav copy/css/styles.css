@@ -1,0 +1,31 @@
+header{
+    border-bottom: 1px solid grey ;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+img{
+    width: 200px;
+}
+
+nav ul{
+    display: flex;
+}
+nav li{
+    margin: 0 8px;
+}
+div a {
+    border: 1px solid grey;
+    padding: 8px 16px;
+    color: gray;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 0 8px;
+}
+div a:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 10px 6px rgba(0,0,225,0.26);
+}
+
